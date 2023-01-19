@@ -1,4 +1,5 @@
 from park.spaces.box import Box
+from park.spaces.dict import Dict
 from park.spaces.discrete import Discrete
 from park.spaces.graph import Graph
 from park.spaces.masked_discrete import MaskedDiscrete

@@ -82,3 +82,8 @@ register(
     entry_point='park.envs.multi_dim_index:MultiDimIndexEnv'
 )
 
+register(
+    env_id='process_scheduling',
+    entry_point='park.envs.process_scheduling:ProcessSchedulingEnv'
+)
+
