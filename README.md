@@ -28,21 +28,21 @@ Another problem is that although Park exposes a similar interface to the one pop
 |:-------------------------------:|:-----------------------------------:|:----------------------:|:-----------------------:|:-------------------:|
 |     Adaptive video streaming    |                 abr                 |           :x:          |            -            |          -          |
 |     Adaptive video streaming    |               abr_sim               |           :x:          |            -            |          -          |
-| Network active queue management |                 aqm                 |   :heavy_check_mark:   |           :x:           |          -          |
-|        CDN memory caching       |                cache                |   :heavy_check_mark:   |    :heavy_check_mark:   |         :x:         |
-|          Circuit design         | circuit_three_ stage_transimpedance |   :heavy_check_mark:   |    :heavy_check_mark:   |         :x:         |
+| Network active queue management |                 aqm                 |   :white_check_mark:   |           :x:           |          -          |
+|        CDN memory caching       |                cache                |   :white_check_mark:   |    :white_check_mark:   |         :x:         |
+|          Circuit design         | circuit_three_ stage_transimpedance |   :white_check_mark:   |    :white_check_mark:   |         :x:         |
 |    Network congestion control   |          congestion_control         |           :x:          |            -            |          -          |
-|      Server load balancing      |             load_balance            |   :heavy_check_mark:   |    :heavy_check_mark:   |  :heavy_check_mark: |
-|   Multi-dim database indexing   |           multi_dim_index           |   :heavy_check_mark:   |           :x:           |          -          |
+|      Server load balancing      |             load_balance            |   :white_check_mark:   |    :white_check_mark:   |  :heavy_check_mark: |
+|   Multi-dim database indexing   |           multi_dim_index           |   :white_check_mark:   |           :x:           |          -          |
 | SQL database query optimization |           query_optimizer           |           :x:          |            -            |          -          |
-|    Account region assignment    |          region_assignment          |   :heavy_check_mark:   |           :x:           |          -          |
-|           Simple queue          |             simple_queue            |   :heavy_check_mark:   |    :heavy_check_mark:   |  :heavy_check_mark: |
+|    Account region assignment    |          region_assignment          |   :white_check_mark:   |           :x:           |          -          |
+|           Simple queue          |             simple_queue            |   :white_check_mark:   |    :white_check_mark:   |  :heavy_check_mark: |
 |   Spark cluster job scheduling  |                spark                |           :x:          |            -            |          -          |
-|   Spark cluster job scheduling  |              spark_sim              |   :heavy_check_mark:   |           :x:           |          -          |
-|        Switch scheduling        |          switch_scheduling          |   :heavy_check_mark:   |    :heavy_check_mark:   |  :heavy_check_mark: |
+|   Spark cluster job scheduling  |              spark_sim              |   :white_check_mark:   |           :x:           |          -          |
+|        Switch scheduling        |          switch_scheduling          |   :white_check_mark:   |    :white_check_mark:   |  :heavy_check_mark: |
 |   Tensorflow device placement   |             tf_placement            |           :x:          |            -            |          -          |
-|   Tensorflow device placement   |           tf_placement_sim          |   :heavy_check_mark:   |           :x:           |          -          |
-|      **Process scheduling**     |        **process_scheduling**       | **:heavy_check_mark:** |  **:heavy_check_mark:** |       **:x:**       |
+|   Tensorflow device placement   |           tf_placement_sim          |   :white_check_mark:   |           :x:           |          -          |
+|      **Process scheduling**     |        **process_scheduling**       | **:white_check_mark:** |  **:white_check_mark:** |       **:x:**       |
 
 As we can see, the initialization succeeds for 11 out of the 17 Park environments, 6 of them can be converted to Gym environments and only 3 are compatible with RLlib. You can re-run the tests on your own device by using the `test_environments()` function described below.
 
