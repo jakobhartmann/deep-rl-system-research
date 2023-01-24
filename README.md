@@ -32,14 +32,14 @@ Another problem is that although Park exposes a similar interface to the one pop
 |        CDN memory caching       |                cache                |   :white_check_mark:   |    :white_check_mark:   |         :x:         |
 |          Circuit design         | circuit_three_ stage_transimpedance |   :white_check_mark:   |    :white_check_mark:   |         :x:         |
 |    Network congestion control   |          congestion_control         |           :x:          |            -            |          -          |
-|      Server load balancing      |             load_balance            |   :white_check_mark:   |    :white_check_mark:   |  :heavy_check_mark: |
+|      Server load balancing      |             load_balance            |   :white_check_mark:   |    :white_check_mark:   |  :white_check_mark: |
 |   Multi-dim database indexing   |           multi_dim_index           |   :white_check_mark:   |           :x:           |          -          |
 | SQL database query optimization |           query_optimizer           |           :x:          |            -            |          -          |
 |    Account region assignment    |          region_assignment          |   :white_check_mark:   |           :x:           |          -          |
-|           Simple queue          |             simple_queue            |   :white_check_mark:   |    :white_check_mark:   |  :heavy_check_mark: |
+|           Simple queue          |             simple_queue            |   :white_check_mark:   |    :white_check_mark:   |  :white_check_mark: |
 |   Spark cluster job scheduling  |                spark                |           :x:          |            -            |          -          |
 |   Spark cluster job scheduling  |              spark_sim              |   :white_check_mark:   |           :x:           |          -          |
-|        Switch scheduling        |          switch_scheduling          |   :white_check_mark:   |    :white_check_mark:   |  :heavy_check_mark: |
+|        Switch scheduling        |          switch_scheduling          |   :white_check_mark:   |    :white_check_mark:   |  :white_check_mark: |
 |   Tensorflow device placement   |             tf_placement            |           :x:          |            -            |          -          |
 |   Tensorflow device placement   |           tf_placement_sim          |   :white_check_mark:   |           :x:           |          -          |
 |      **Process scheduling**     |        **process_scheduling**       | **:white_check_mark:** |  **:white_check_mark:** |       **:x:**       |
